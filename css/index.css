@@ -1,0 +1,20 @@
+p {
+    grid-area: inicio;
+    background-color: black;
+    color: white;
+    text-align: center;
+    grid-row: 1/1;
+}
+
+h2 {
+    grid-area: titulo;
+    grid-row: 2/2;
+    text-align: center;
+}
+
+.menu {
+    grid-area: cartoes;
+    grid-row: 3/3;
+    background-color: aqua;
+    height: 100%;
+}
