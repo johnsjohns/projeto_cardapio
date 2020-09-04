@@ -1,5 +1,5 @@
 .main {
     display: grid;
-    grid-row: 5% 40% 55%;
+    grid-row: 5% 50% 50%;
     grid-template-areas: "inicio" "titulo" "cartoes";
 }

@@ -1,0 +1,33 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin: auto;
+}
+
+.menu_cartao {
+    margin-right: 50px;
+}
+
+.menu_cartao:last-child {
+    margin-right: 0px;
+}
+
+.menu_cartao_titulo {
+    text-align: center;
+}
+
+.menu_cartao_conteudo {
+    display: grid;
+    grid-row: 60% 40%;
+    grid-template-areas: "figura textoMenu";
+}
+
+.menu_cartao_figura {
+    grid-area: figura;
+}
+
+.menu_cartao_texto {
+    grid-area: textoMenu;
+    word-wrap: break-word;
+}
