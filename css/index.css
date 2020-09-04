@@ -1,15 +1,13 @@
-p {
-    grid-area: inicio;
-    background-color: black;
-    color: white;
-    text-align: center;
-    grid-row: 1/1;
+body {
+    width: 99%;
+    height: 100%;
 }
 
 h2 {
     grid-area: titulo;
     grid-row: 2/2;
     text-align: center;
+    padding-bottom: 10pt;
 }
 
 .menu {

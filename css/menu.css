@@ -7,6 +7,7 @@
 
 .menu_cartao {
     margin-right: 50px;
+    border-style: solid;
 }
 
 .menu_cartao:last-child {
