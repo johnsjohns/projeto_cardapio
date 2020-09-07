@@ -6,15 +6,16 @@ body {
 
 h2 {
     grid-area: titulo;
-    grid-row: 1/2;
     text-align: center;
-    padding-bottom: 10pt;
+    padding-top: 5pt;
     color: whitesmoke;
+    background-color: #aaaaaa;
+    border-radius: 5px;
+    margin: 0 50px 0;
 }
 
 .menu {
     grid-area: cartoes;
-    grid-row: 2/3;
     height: 100%;
 }
 

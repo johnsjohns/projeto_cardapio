@@ -6,22 +6,23 @@
 }
 
 .menu_cartao {
-    margin-right: 50px;
-    border-style: solid;
+    margin: 25px 50px 5px;
+    /*border-style: solid;*/
 }
 
-.menu_cartao:last-child {
-    margin-right: 0px;
-}
+
 
 .menu_cartao_titulo {
+    margin-bottom: 10px;
+    color: #F0F0F0;
     text-align: center;
 }
 
 .menu_cartao_conteudo {
     display: grid;
-    grid-row: 60% 40%;
+    grid-template-rows: 50% 50%;
     grid-template-areas: "figura textoMenu";
+    margin-bottom: 10px;
 }
 
 .menu_cartao_figura {
