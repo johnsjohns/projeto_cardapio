@@ -1,18 +1,20 @@
 .menu {
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: row;
-    align-content: center;
-    margin: auto;
+    margin: 0 25px 0;
+    
 }
 
 .menu_cartao {
-    margin: 25px 50px 5px;
+    margin: 25px 25px 5px;
     border-radius: 5px;
-    border: 2px solid #D0D0D0;
+    border: 2px solid #F0F0F0;
     padding: 0 5px 0;
+    background-color: #C7C7C7;
+    width: 100%;
+    height: 100%;
 }
-
-
 
 .menu_cartao_titulo {
     margin-bottom: 10px;
@@ -23,16 +25,16 @@
 
 .menu_cartao_conteudo {
     display: grid;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 90% 10%;
     grid-template-areas: "figura textoMenu";
-    margin-bottom: 10px;
+    padding-bottom: 25px ;
 }
 
 .menu_cartao_figura {
     grid-area: figura;
+    margin-right: 10px;
 }
 
 .menu_cartao_texto {
     grid-area: textoMenu;
-    word-wrap: break-word;
 }

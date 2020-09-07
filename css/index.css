@@ -1,7 +1,7 @@
 body {
     width: 100%;
     height: 100%;
-    background-color: #B7B7B7;
+    background-color: #DDE7E7;
 }
 
 h2 {
@@ -12,6 +12,7 @@ h2 {
     background-color: #AAAAAA;
     border-radius: 5px;
     margin: 0 50px 0;
+    border: 2px solid #F0F0F0;
 }
 
 .menu {
@@ -20,6 +21,7 @@ h2 {
 }
 
 img {
-    width: 200px;
-    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: fill;
 }
