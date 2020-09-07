@@ -8,8 +8,8 @@ h2 {
     grid-area: titulo;
     text-align: center;
     padding-top: 5pt;
-    color: whitesmoke;
-    background-color: #aaaaaa;
+    color: #F0F0F0;
+    background-color: #AAAAAA;
     border-radius: 5px;
     margin: 0 50px 0;
 }

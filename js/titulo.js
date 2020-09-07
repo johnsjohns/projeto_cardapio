@@ -1,4 +1,4 @@
-let titulo = "Restaurante da Candinha"
+let titulo = "Restaurante da Candinha - "
 posicao = 0
 document.querySelector("body").onload = carrega();
 
